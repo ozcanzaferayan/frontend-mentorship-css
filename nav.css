@@ -1,0 +1,88 @@
+.navbar {
+  width: 15em;
+  background-color: white;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.navbar-brand-icon {
+  width: 50px;
+  height: 50px;
+  color: white;
+  background-color: var(--primary-color);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--border-radius);
+  margin-bottom: 0.5em;
+}
+
+.navbar-nav {
+  padding: 0;
+  margin: 1em;
+}
+.navbar-nav li {
+  list-style: none;
+  color: #000;
+  margin-block: 1.5em;
+}
+
+.navbar-nav a {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav a span {
+  margin-inline-start: 0.8em;
+  font-weight: bold;
+}
+
+.navbar-footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1em;
+  padding-top: 7em;
+  background-color: var(--background-color);
+}
+
+.navbar-footer .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-footer-icon {
+  width: 12em;
+  position: absolute;
+  bottom: 10em;
+}
+
+.navbar-footer .title {
+  font-weight: bold;
+  color: black;
+  font-size: 1.5em;
+  margin-bottom: 0.2em;
+}
+.navbar-footer .subtitle {
+  color: var(--text-color);
+  font-size: 1em;
+  margin-bottom: 1.5em;
+}
+.navbar-footer .button {
+  color: white;
+  font-size: 1em;
+  background-color: var(--primary-color);
+  padding: 1em 2em;
+  border-radius: var(--border-radius);
+  text-align: center;
+}

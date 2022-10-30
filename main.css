@@ -1,0 +1,53 @@
+.main {
+  flex: 3;
+  background-color: var(--background-color);
+  margin-block: 1em;
+  border-radius: 2em;
+  padding: 2em;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-header-search {
+  display: flex;
+  align-items: center;
+}
+
+.main-header-search svg {
+  color: var(--text-color);
+  margin-inline-end: 0.8em;
+}
+
+.main-header-search input {
+  border: 0;
+  background-color: transparent;
+  color: var(--text-color);
+  font-size: 1.2em;
+}
+
+.main .menu {
+  display: flex;
+  align-items: center;
+}
+
+.main .menu .change-view {
+  padding: 0.5em 1em;
+  display: flex;
+  align-items: center;
+  border: 2px solid var(--text-color-lighter);
+  border-radius: 10px;
+}
+.main .menu .change-view span {
+  margin-inline-start: 0.8em;
+  color: var(--text-color);
+  font-weight: bold;
+}
+.main .menu svg {
+  color: var(--text-color);
+}
+.main .menu button {
+  margin-inline-start: 1em;
+}

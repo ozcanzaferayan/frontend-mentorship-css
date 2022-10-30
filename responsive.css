@@ -1,0 +1,64 @@
+@media (max-width: 768px) {
+  html,
+  body {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+
+  .navbar {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  .navbar-brand,
+  .navbar-footer {
+    display: none;
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    margin-inline: 1em;
+  }
+
+  .credit-card {
+    margin-left: 0;
+  }
+  .apple-card-exchanges {
+    justify-content: center;
+  }
+
+  .main {
+    margin: 0;
+    border-radius: 0;
+  }
+
+  .main .menu .change-view {
+    border: 0px;
+  }
+
+  .change-view span {
+    display: none;
+  }
+}
+
+@media (max-width: 630px) {
+  .navbar-nav a {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar-nav a span {
+    margin: 0;
+    margin-top: 0.3em;
+  }
+}
+@media (max-width: 430px) {
+  .navbar-nav a span {
+    display: none;
+  }
+}
